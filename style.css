@@ -1,0 +1,418 @@
+*{
+    margin:0;
+    border:border-box;
+    font-family:Arial;
+    border:border-box;  /*content ke andar ayega */ 
+}
+
+
+
+.navbar{
+    background-color:#0f1111;
+    color:white;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+
+.navlogo{
+        height:50px;
+        width:160px;
+
+}
+
+.logo{
+    background-image:url("naya-logo.jpeg");
+    height:50px;
+    width:100%;
+    background-size:cover;
+  
+
+}
+
+.border{
+        border:2px solid transparent;      /*ho ga toh lekin hover karne par aaa jayega*/
+}
+.border:hover{
+    border:2px solid white;
+}
+
+.deliver{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+.location{
+    color:#ffffff;
+    font-size:1rem;
+    margin-left:5px;
+}
+.add-icon{
+    display:flex;        /*ek line mai aa jayega*/
+    align-items:center;   /*cross axis ke centre mai aa jayega*/
+                          /*also of no use*/
+}
+
+
+              /*3rd address*/
+.nav-search{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:pink;
+    width:620px;
+    height:40px;
+    border-radius:2px;
+    margin-left:10px;
+}
+
+
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+.search-select{
+    background-color:#f3f3f3;
+    text-align:center;
+    width:50px;
+    border-top-left-radius:5px;/*  */
+    border-bottom-left-radius:5px;/*  */
+    border:none;
+}
+.search-input{
+    width:100%;
+    height:38px;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+        background-color:#febd68;
+        width:45px;
+        height:40;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:1.5rem;
+        border-top-right-radius:4px;/*  */
+        border-bottom-right-radius:4px;/*  */
+        color:black;
+}
+
+
+
+              /* 4&5th address styling */
+              .upper-reusable{
+                font-size:12px;
+                color:#ffffff;
+              }
+              .down-reusable{
+                font-size:15px;
+                font-weight:700;
+              }
+
+              
+             /* box 6  styling*/
+                .cart-logo i{
+                    color:white;
+                    font-size:30px;
+                     
+                }
+
+                .cart-logo{
+                    font-size:15px;
+                    color:white;
+                    font-weight:500;
+                    
+                }
+
+
+                /* panel */
+
+
+
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    Color:white;
+    align-items:center;
+    justify-content:space-evenly;
+
+}                
+.panel-ops p{
+    display:inline;
+    margin-right:20px;
+   
+}
+.panel-ops{
+    width:70%;
+    font-size:14px;
+}
+.panel-all{
+    font-weight:700;
+}
+.panel-deals{
+    font-size:14px;
+    font-weight:700;
+}
+
+
+ /* hero image */
+ .hero-section{
+    background-image:url("amazon_hero_image.jpg");
+    height:400px;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+
+ }
+ .hero-msg{
+    color:#0f1111;
+    font-size:14px;
+    background-color:white;
+    width:80%;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+  
+ }
+ .hero-msg a{
+    color:#007185;
+ }
+
+
+
+                 /*  shop-section */
+.shop-section{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#F1CCD7;
+    flex-wrap:wrap;
+    
+}
+
+
+.box{
+    height:300px;
+    /* border:2px solid black; */
+    width:23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-top:10px;
+    margin-bottom:10px;
+   
+}          
+
+
+.box1-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+
+.box2-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+
+.box3-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+
+.box4-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+
+.box5-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+
+.box6-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+
+.box7-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+
+.box8-content{
+    margin-left:10px;/*  */
+    margin-right:10px;/*  */
+
+}
+.box1-img{
+        height:180px;
+        margin-top:10px;
+        margin-bottom:10px;
+        background-size:cover;
+}
+
+
+.box2-img{
+    height:180px;
+   
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+    
+}
+
+
+.box3-img{
+    height:180px;
+   
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+}
+
+
+.box4-img{
+    height:180px;
+  
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+}
+
+
+
+.box5-img{
+    height:180px;
+  
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+}
+
+
+
+.box6-img{
+    height:180px;
+  
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+}
+
+
+
+
+.box7-img{
+    height:180px;
+  
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+}
+
+
+
+
+.box8-img{
+    height:180px;
+  
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+}
+.see{
+    color:#007185;
+    margin-left:10px;
+
+}
+
+
+ /* Footer  */
+
+ footer{
+    margin-top:10px;
+ }
+ .foot-panel1{
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+   
+}
+
+ .foot-panel2{
+    background-color:#222f3d;
+    color:white;
+    height:500px;
+    display:flex;
+    justify-content:space-evenly;
+   
+    
+    
+
+    
+
+}
+ul a{
+    display:block;
+    font-size:12px;
+    margin-top:10px;
+    color:#dddddd;
+    
+}
+ul{
+    margin-top:10px;
+}
+
+.foot-panel3{
+    background-color:#222f3d;
+    color:white;
+    border-top: 0.5px solid white;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-foot{
+    background-image: url("download (3).png");
+    background-size:cover;
+    height:50px;
+    width:80px;
+    
+}
+
+.foot-panel4 {
+    background-color:#222f3d;
+    height:100px;
+    
+    
+}
+.pages{
+    padding:25px;
+    color:white;
+    font-size:14px;
+    text-align:center;
+}
+.copyright{
+    padding:5px;
+   
+    color:white;
+    font-size:14px;
+    text-align:center;
+}
